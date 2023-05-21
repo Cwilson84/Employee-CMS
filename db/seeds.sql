@@ -14,11 +14,12 @@ INSERT INTO roles (title, salary, department_id) VALUES
 ('Marketing Manager', 85000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
-('Jeremy', 'Ingram', 7, NULL),
+('Michael', 'Cruz-Toran', 7, NULL),
 ('Nadiya', 'Toran-Wilson', 4, NULL),
 ('Nathan', 'Fulton', 6, NULL),
-('Michael', 'Cruz-Toran', 5, NULL),
+('Jeremy', 'Ingram', 2, 1),
 ('Oliver', 'Wilson', 3, 2),
-('Eddard', 'Stark', 1, 4),
-('Jessie', 'James', 2, 1),
-('Arya', 'Stark', 1, 4);
+('Natalie', 'Wilson', 1, 4),
+('Sean', 'Cruz', 5, 3),
+('Spencer', 'Rinkvage', 1, 4),
+('Bob', 'Heina', 2, 1); 
