@@ -92,7 +92,7 @@ N/A
 
 ## Links
 
-Link to demo video: [https://www.drive.google.com/file/d/1xav8o2-Wyo773DsKfwHSJ6f6dKpTMWwH/view](Google Drive Video)
+Link to demo video: https://drive.google.com/file/d/1xav8o2-Wyo773DsKfwHSJ6f6dKpTMWwH/view
 
 ## Credits
 
