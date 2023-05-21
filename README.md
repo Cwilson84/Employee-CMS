@@ -15,6 +15,25 @@ This command-line application allows business owners to view and manage departme
 * [Tests](#tests)
 * [Questions](#questions)
 
+## Features
+
+- View all Departments: Displays a formatted table showing department names and ID's.
+- View all Roles: Presents the job title, role ID, department, and salary for each role.
+- View all Employees: Shows a formatted table with employee data, including IDs, first names, last names, job titles, departments, salaries, and reporting managers.
+- Add a Department: Prompts you to enter the name of the department and adds it to the database.
+- Add a Role: Requests information such as name, salary, and department, and adds the role to the database.
+- Add an Employee: Collects the employee's first name, last name, role, and manager, and adds the employee to the database.
+- Update an Employee Role: Allows you to select an employee and assign a new role. The information is then updated in the database.
+
+### Additional Features Included
+
+- View Employees by Manager: Lists employees based on their reporting manager, providing a comprehensive view of employee management within each department.
+- Update an Employee: Allows you to select an employee and modify their role, or manager. The changes are then reflected in the database.
+- Update an Employee Manager: Enables you to select an employee and update their reporting manager.
+- Delete an Employee: Allows you to choose an employee to delete from the database, removing their information from the system.
+- Delete a Department: Enables the deletion of a department from the database, along with all associated roles and employees.
+- Delete a Role: Allows the removal of a role from the database, including any employees assigned to that role.
+
 ## Installation
 
 Install the necessary dependencies by running the following command:
@@ -47,8 +66,8 @@ Create a .env file in the root directory and provide the required environment va
 DB_USER=<username>
 DB_PASSWORD=<password>
 DB_NAME=employee_db
-DB_HOST=<your_database_host>
-DB_PORT=<your_database_port>
+DB_HOST=root
+DB_PORT=3306
 ```
 
 Run the application with the following command:
